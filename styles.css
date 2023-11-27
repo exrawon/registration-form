@@ -1,97 +1,124 @@
+html {
+    box-sizing: border-box;
+}
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: white;
+  background-image: url(https://m.media-amazon.com/images/I/71t2iMRG+rL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.maincontent {
+  background-color: rgba(27, 27, 50, 0.8);
+  margin: auto;
+  max-width: 1000px;
+  padding: 5rem;
+}
+
+img {
+  height: 5rem;
+  background-color: whitesmoke;
+  object-fit: cover;
+}
+
+.img-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 15%;
     background-color: whitesmoke;
-    font-size: 1.2rem;  
-    font-weight: 400;
-    color: white;
-    background-image: url(https://m.media-amazon.com/images/I/71t2iMRG+rL.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 70px;
+}
+
+#title {
+    width: 100%;
+    padding-top: 3rem;
+    margin: auto;
+}
+
+p {
     margin: 0;
     padding: 0;
 }
 
-.maincontent {
- background-color: rgba(27, 27, 50, 0.8);
- margin: auto;
- max-width: 1000px;
- padding: 4rem;
-}
-
-img {
-    max-width: 500px;
-    max-height: 150px;
-    margin-top: -50px;
-    display: block;
-
+form {
+    padding-top: 2rem;
 }
 label {
-    display: inline-block;
-    margin: 1rem 0;
-    vertical-align: middle;
+  display: inline-block;
+  margin: 1rem 0;
+  vertical-align: middle;
 }
 
 legend {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
-input, select {
-    min-height: 2.1em;
-    width: 60%;
-    display: block;
+input,
+select {
+  min-height: 2.1em;
+  width: 60%;
+  display: block;
 }
 
 textarea {
-    width: 100%;
+  width: 100%;
 }
 
 input[type="radio"] {
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 
-input::placeholder, textarea::placeholder, option {
-    font-size: 1.2rem;
-   
+input::placeholder,
+textarea::placeholder,
+option {
+  font-size: 1.2rem;
 }
 
 #dropdown {
-    height: 40px;
-    font-size: 18px;
-    max-width: 50%;
-    display: block;
+  height: 40px;
+  font-size: 18px;
+  max-width: 50%;
+  display: block;
 }
-
 
 #submit {
-    display: block;
-    height: 50px;
-    width: 200px;
-    margin: 50px auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
+  display: block;
+  height: 50px;
+  width: 200px;
+  margin: 50px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-.gymexp label, .gymexp input {
-    display: inline;
+.gymexp label,
+.gymexp input {
+  display: inline;
 }
 
 .gymexp {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .client-request {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 10px 0px;
-    width: 20%    
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 0px;
+  width: 20%;
 }
-
 
 input[type="checkbox"] {
-    margin-left: -65px;
+  margin-left: -65px;
 }
-
